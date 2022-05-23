@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    background-color:rgb(230, 177, 64);
+    color: rgb(16, 29, 99);
+    border: solid black 2px;
+}
+
+.title{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.input{
+    text-align: center;
+    margin: auto;
+    height: 40px;
+    width: 400px;
+}
+
+#nome, #altura, #peso{
+    width: 300px;
+}
+
+#calcular{
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    color: rgb(16, 29, 99);
+    background-color: rgb(240, 171, 42);
+}
+
+.result{
+    font-size: medium;
+    margin-top: 15px;
+}
